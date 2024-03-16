@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    justify-content: end;
+    background-color: blue;
+    padding: 50px; 
+}
+
+.header .menu1{
+    display: flex;
+    list-style: none;
+}
+
+.menu1 a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+}
+
+.enunciado{
+    background-color: aquamarine;
+    padding: 100px;
+}
