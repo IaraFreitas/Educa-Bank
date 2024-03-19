@@ -1,22 +1,57 @@
+*{
+    margin: 0; /*deixa os itens/textos inseridos na página sem margem*/
+    padding: 0; /*deixa os itens sem um respiro interno, sem um espaçamento*/
+    font-family: cursive; /*define uma fonte padrão para toda página*/
+    list-style: none; /*tira as bolinhas*/
+}
+
 .header{
-    display: flex;
-    justify-content: end;
-    background-color: blue;
-    padding: 50px; 
+    background-color: rgb(78, 135, 168); /*rgb 78 135 168*/
+    padding: 70px; /*define a altura do header*/
 }
 
-.header .menu1{
-    display: flex;
-    list-style: none;
+.menu-header{
+    display: flex; /*deixa os títulos lado a lado*/
+    justify-content: end; /*ajusta os títulos no final da página que é o mesmo que alinhar do lado direito*/
+ }
+
+.menu-header li{
+    margin-left: 40px; /*coloca um espaço entre os títulos no header*/
 }
 
-.menu1 a{
-    text-decoration: none;
-    margin-left: 20px;
-    color: white;
+.menu-header a{
+    text-decoration: none; /*tira o sublinhado que é habilitado pela tag A*/
+    color: white; /*define a cor do título no header*/
+    font-size: 15px; /*define o tamanho da letra no cabeçalho*/
 }
 
-.enunciado{
+.menu-header li a:hover {
+    color: blue; /*esta cor aparecerá quando passar o mouse sobre as palavras*/
+    transition: 0.8s; /*define a velidade em que mudará a cor ao passar o mouse sobre uma palavra*/
+}
+
+#sessao{
     background-color: aquamarine;
-    padding: 100px;
+    padding: 70px;
+   
+}
+
+#sessao{
+    text-decoration: none;
+}
+
+#app{
+    display: flex;
+    background-color: cornflowerblue;
+    padding: 70px;
+}
+
+#container{
+    background-color: yellowgreen;
+    padding: 70px;
+}
+
+#imagem{
+    background-image: url(img/img\ cofre\ fundo.jpg);
+    padding: 300px;
 }
