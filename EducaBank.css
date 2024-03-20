@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0; /*deixa os itens/textos inseridos na página sem margem*/
     padding: 0; /*deixa os itens sem um respiro interno, sem um espaçamento*/
@@ -51,7 +53,7 @@
     padding: 70px;
 }
 
-#imagem{
+#container-cofre{
     background-image: url(img/img\ cofre\ fundo.jpg);
     padding: 300px;
 }
