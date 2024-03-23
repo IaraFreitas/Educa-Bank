@@ -8,7 +8,7 @@
 }
 
 .header{
-    background-color: rgb(78, 135, 168); /*rgb 78 135 168*/
+    background-color: #ef550e ; /*rgb 78 135 168*/
     padding: 70px; /*define a altura do header*/
 }
 
@@ -24,22 +24,22 @@
 .menu-header a{
     text-decoration: none; /*tira o sublinhado que é habilitado pela tag A*/
     color: white; /*define a cor do título no header*/
-    font-size: 15px; /*define o tamanho da letra no cabeçalho*/
+    font-size: 1.1em; /*define o tamanho da letra no cabeçalho*/
 }
 
 .menu-header li a:hover {
-    color: blue; /*esta cor aparecerá quando passar o mouse sobre as palavras*/
+    color:#470000; /*esta cor aparecerá quando passar o mouse sobre as palavras*/
     transition: 0.8s; /*define a velidade em que mudará a cor ao passar o mouse sobre uma palavra*/
 }
 
 #sessao{  /*quando for id chama # */
     padding: 15rem;
-    background: linear-gradient(180deg,#c0cdcf 8.33%,  rgba(90, 168, 168) 100%);
+    background: linear-gradient(180deg,#c0cdcf 8.33%, #f36e27 100%);
 }
 
 #sessao h2{
     font-size: 3em; /*48px*/
-    color: rgba(0, 0, 0, 0.717);
+    color:#470000(0, 0, 0, 0.717);
 }
 
 #sessao p{
@@ -50,21 +50,26 @@
 #sessao button{
     padding: 22px;
     border-radius: 50px;
-    border-color: rgb (19, 153, 108);
+    border-color: #ef550e;
     width: 20em;
     cursor: pointer;
 }
 
 #sessao button a{
     text-decoration: none;
-    color: rgb(19, 153, 108);
+    color:#ef550e;
 
+}
+
+
+#sessao button a:hover{
+    color: #470000;
 }
 
 
 #app{
     display: flex;
-    background-color:rgb(226, 233, 233);
+    background-color:#ffba71 ;
     padding: 15rem;
     justify-content: space-around;
 }
@@ -72,20 +77,24 @@
 #app div button{
     padding: 22px;
     border-radius: 50px;
-    border-color: rgb (19, 153, 108);
+    border-color: #ef550e;
     width: 20em;
     cursor: pointer;
-    margin: 1em;
+    
 }
 
 #app button a{
     text-decoration: none;
-    color: rgb(19, 153, 108);
+    color:#ef550e;
+}
+
+#app button a:hover{
+    color: #470000 ;
 }
 
 #app div p{
-    font-size: 3em;
-    margin-bottom: 20px;
+    font-size: 2.3em;
+    
 }
 
 #app div img{
@@ -97,11 +106,104 @@
 }
 
 #container{
-    background-color: yellowgreen;
-    padding: 70px;
+    background-color:#ffba71  ;
+    padding: 15rem;
+
+}
+
+#container h2{
+    font-size: 3em; /*48px*/
+    color:#470000(0, 0, 0, 0.717);
+}
+
+#container p{
+    font-size: 1.8em;
+    margin: 20px 0; /*1º margem em cima e embaixo e o 0 é das laterais*/
+    text-align: justify;
+}
+
+
+#container button{
+    padding: 22px;
+    border-radius: 50px;
+    border-color: #ef550e;
+    width: 20em;
+    cursor: pointer;
+    margin: 1em;
+}
+
+#container button a{
+    text-decoration: none;
+    color:#ef550e;
+}
+
+#container button a:hover{
+    color: #470000 ;
+}
+
+#container hr{
+    width: 50vw;
+    align-items: center;
+
+}
+
+#container img{
+    width: 25vw; /*definiu o tamanho da imagem*/
+    margin-left: 23vw; /*ajustou o alinhamento da imagem na página*/
+    padding: 10px;
 }
 
 #container-cofre{
     background-image: url(img/img\ cofre\ fundo.jpg);
-    padding: 300px;
+    background-position: center;
+    background: linear-gradient(180deg,#c0cdcf 8.33%, #f36e27 100%);
+    display: flex;
+    justify-content: space-between;
+    padding: 10rem;
 }
+
+#container-cofre img{
+    flex-wrap: wrap;
+    width: 25vw;
+    height: auto;
+    margin-right: 10em;
+}
+
+#container-cofre h2{
+    text-align: center;
+    font-size: 1.7em; /*48px*/
+    color:#470000(0, 0, 0, 0.717);
+    margin-top: 3em;
+}
+
+#container-cofre p{
+    color:#470000(0, 0, 0, 0.717);
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 3em;
+}
+
+#footer-contatos{
+    background-color: #ef550e ;
+    }
+
+#footer-contatos img{
+    width: 20vw; /*definiu o tamanho da imagem*/
+    margin-left: 40vw; /*ajustou o alinhamento da imagem na página*/
+    padding: 1em;
+}
+
+#footer-contatos section{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0   10em;
+    padding: 1em;
+}
+
+#footer-contatos a{
+    text-decoration: none;
+}
+
+
+
