@@ -10,6 +10,9 @@
 .header{
     background-color: #ef550e ; /*rgb 78 135 168*/
     padding: 70px; /*define a altura do header*/
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 .menu-header{
@@ -35,6 +38,7 @@
 #sessao{  /*quando for id chama # */
     padding: 15rem;
     background: linear-gradient(180deg,#c0cdcf 8.33%, #f36e27 100%);
+    color: #470000;
 }
 
 #sessao h2{
@@ -45,6 +49,7 @@
 #sessao p{
     font-size: 2.3em;
     margin: 20px 0; /*1º margem em cima e embaixo e o 0 é das laterais*/
+    color: #470000;
 }
 
 #sessao button{
@@ -72,6 +77,7 @@
     background-color:#ffba71 ;
     padding: 15rem;
     justify-content: space-around;
+    color: #470000;
 }
 
 #app div button{
@@ -108,7 +114,7 @@
 #container{
     background-color:#ffba71  ;
     padding: 15rem;
-
+    color: #470000;
 }
 
 #container h2{
@@ -160,6 +166,7 @@
     display: flex;
     justify-content: space-between;
     padding: 10rem;
+    color: #470000;
 }
 
 #container-cofre img{
@@ -185,6 +192,7 @@
 
 #footer-contatos{
     background-color: #ef550e ;
+    color: #470000;
     }
 
 #footer-contatos img{
@@ -199,10 +207,12 @@
     justify-content: space-between;
     margin: 0   10em;
     padding: 1em;
+    color: #470000;
 }
 
 #footer-contatos a{
     text-decoration: none;
+    color: #470000;
 }
 
 
