@@ -1,3 +1,10 @@
+/*Algumas unidades de medidas*/
+/*px | é uma unidade de medida de tamanho fixo*/
+/*tag p | tem o tamanho padrão de 16px*/
+/*em | trabalha em relação ao tamanho fonte do elemento pai*/
+/*rem - também conhecido como root em | este vai depender do elemento pai para tudo, que neste caso é o html. O em & rem podem ser usados em qualquer unidade de medida*/
+/*vh | viewport height*/
+/*vw | viewport width*/
 
 
 *{
