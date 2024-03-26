@@ -1,4 +1,4 @@
-/*Algumas unidades de medidas*/
+/*ALGUMAS UNIDADES DE MEDIDAS*/
 /*px | é uma unidade de medida de tamanho fixo*/
 /*tag p | tem o tamanho padrão de 16px*/
 /*em | trabalha em relação ao tamanho fonte do elemento pai*/
@@ -66,19 +66,17 @@
     border-color: #ef550e;
     width: 20em;
     cursor: pointer;
+    font-size: 15px;
 }
 
 #sessao button a{
     text-decoration: none;
     color:#ef550e;
-
 }
-
 
 #sessao button a:hover{
     color: #470000;
 }
-
 
 #app{
     display: flex;
@@ -94,7 +92,8 @@
     border-color: #ef550e;
     width: 20em;
     cursor: pointer;
-    
+    margin-top: 10px;
+    font-size: 15px;
 }
 
 #app button a{
@@ -108,7 +107,6 @@
 
 #app div p{
     font-size: 2.3em;
-    
 }
 
 #app div img{
@@ -116,34 +114,36 @@
     height: 25rem ;
     margin-left: 70px;;
     margin-top: -70px; /*margin negativa faz o processo inverso. ou seja, a imagem sobe*/
-
 }
 
 #container{
-    background-color:#ffba71  ;
     padding: 15rem;
+    background-color:#ffba71  ;
     color: #470000;
 }
 
 #container h2{
     font-size: 3em; /*48px*/
+    text-align: center;
     color:#470000(0, 0, 0, 0.717);
+    margin-top: -20rem; /*utilizo a numeração negativa para diminuir a distancia entre as sections neste caso*/
 }
 
 #container p{
     font-size: 1.8em;
-    margin: 20px 0; /*1º margem em cima e embaixo e o 0 é das laterais*/
+    color:#470000(0, 0, 0, 0.717);
+    margin: 25px 0; /*1º margem em cima e embaixo e o 0 é a margem das laterais*/
     text-align: justify;
 }
-
 
 #container button{
     padding: 22px;
     border-radius: 50px;
     border-color: #ef550e;
     width: 20em;
-    cursor: pointer;
-    margin: 1em;
+    cursor: pointer;    
+    font-size: 15px;
+    margin-bottom: 10px;
 }
 
 #container button a{
@@ -151,30 +151,36 @@
     color:#ef550e;
 }
 
+#container button:hover{
+    background-color: #470000;
+    color: white;
+}
+
 #container button a:hover{
-    color: #470000 ;
+    color: white ;
+    background-color: #470000;
 }
 
 #container hr{
     width: 50vw;
-    align-items: center;
-
+    margin: 20px auto;
 }
 
 #container img{
     width: 25vw; /*definiu o tamanho da imagem*/
-    margin-left: 23vw; /*ajustou o alinhamento da imagem na página*/
+    margin: 0 25%;
     padding: 10px;
+    margin-left: 25px;
 }
 
 #container-cofre{
-    background-image: url(img/img\ cofre\ fundo.jpg);
+    background: linear-gradient(180deg,#0c16a364 8.33%, rgba( 5, 39, 101, 0.745) 100%),url(img/img\ cofre\ fundo.jpg) ;
     background-position: center;
-    background: linear-gradient(180deg,#c0cdcf 8.33%, #f36e27 100%);
+    
     display: flex;
     justify-content: space-between;
     padding: 10rem;
-    color: #470000;
+    color: white;
 }
 
 #container-cofre img{
@@ -198,10 +204,13 @@
     margin-top: 3em;
 }
 
-#footer-contatos{
+#footer-contatos {
     background-color: #ef550e ;
+    text-align: center;
+    justify-content: space-between;
+    padding: 1em;
     color: #470000;
-    }
+}
 
 #footer-contatos img{
     width: 20vw; /*definiu o tamanho da imagem*/
@@ -209,19 +218,12 @@
     padding: 1em;
 }
 
-#footer-contatos section{
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    margin: 0   10em;
-    padding: 1em;
-    color: #470000;
-}
-
 #footer-contatos a{
     text-decoration: none;
     color: #470000;
 }
+
+
 
 
 
