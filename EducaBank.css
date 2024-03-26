@@ -174,7 +174,7 @@
 }
 
 #container-cofre{
-    background: linear-gradient(180deg,#0c16a364 8.33%, rgba( 5, 39, 101, 0.745) 100%),url(img/img\ cofre\ fundo.jpg) ;
+    background: linear-gradient(180deg,#ef550e 8.33%, rgba( 5, 39, 101, 0.745) 100%),url(img/img\ cofre\ fundo.jpg) ;
     background-position: center;
     
     display: flex;
