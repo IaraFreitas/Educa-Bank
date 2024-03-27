@@ -6,14 +6,12 @@
 /*vh | viewport height*/
 /*vw | viewport width*/
 
-
 *{
     margin: 0; /*deixa os itens/textos inseridos na página sem margem*/
     padding: 0; /*deixa os itens sem um respiro interno, sem um espaçamento*/
     font-family: cursive; /*define uma fonte padrão para toda página*/
     list-style: none; /*tira as bolinhas*/
 }
-
 
 .header{
     background-color: #ef550e ; /*rgb 78 135 168*/
