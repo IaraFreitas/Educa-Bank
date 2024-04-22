@@ -223,5 +223,31 @@
     color: #470000;
 }
 
+/* Tamanho das telas que iremos trabalhar  480 px, 767px, 991px, 1366px, 1920px */
+
+@media screen and {max-width: 1920px;
+    
+}
+
+@media screen and {max-width: 1366px;
+    
+}
+
+@media screen and {max-width: 991px;
+    #sessao button a{
+        width: 14ren;
+        height: 14vh;
+    }    
+}
+
+@media screen and {max-width: 767px;
+    
+}
+
+@media screen and {max-width: 480px;
+    
+}
+
+
 
 
