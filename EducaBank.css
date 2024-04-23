@@ -325,7 +325,7 @@ footer span{
         font-size: medium;
     }
     
-    @media screen and (max-width: 400px){
+    @media screen and (min-width: 400px){
 
         .menu-header{
             font-size: smaller;            
