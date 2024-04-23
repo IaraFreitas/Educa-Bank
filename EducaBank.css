@@ -168,46 +168,48 @@ vw | viewport width
 }
 
 #container hr{
-    width: 80vw;
+    margin: 0 auto; /*Margem zerada e automatica*/
+    width: 70%; /*Tamanho da linha*/
 }
 
-#container div img{
-    width: 20vw; /*definiu o tamanho da imagem*/
-    margin-top: 20px;
-    text-align: center; /*TENTEI CENTRALIZAR O LOGO DO BANCO + NÃO ESTA RECONHECENDO. SE COLOCO NA #CONTAINER CENTRALIZA O BOTÃO E O LOGO E Ñ É O QUE QUERO*/
+#container div img{   
+    margin-left: 30vw; /*margem do lado esquerdo*/
+    margin-top: 5vh; /*distancia no topo*/
+    width: 25vw; /*define o tamanho da imagem*/
 }
 
 
 /*aqui iniciamos a configuração do ID de nome CONTAINER-COFRE, onde o foco está em falar da segurança */
 
 #container-cofre{
-    background-image: url(img/img\ cofre\ fundo.jpg);
+    background: linear-gradient(180deg, #ef550e 8.33%, rgba(5, 39, 101, 0.745) 100%), url(img/img\ cofre\ fundo.jpg);
     background-position: center;
-    background: linear-gradient(180deg,#c0cdcf 8.33%, #f36e27 100%);
+    background-attachment: fixed; /*esta opção fixa a imagem no fundo do background*/
+   
     display: flex;
     justify-content: space-between;
     padding: 8vw;
-    color: #470000;
+    color: white;
 }
 
 #container-cofre img{
     flex-wrap: wrap;
-    width: 25vw;
-    height: auto;
-    
+    width: 20vw; /*aqui foi definido o tamanho da imagem para os 4 angulos*/
+    height: auto; /*optou-se por deixar o ajuste da altura automatico e de acordo com a quantidade do conteudo*/
+    margin-left: 4vw;
 }
 
 #container-cofre h2{
     text-align: center;
-    font-size: 1.7em; /*48px*/
+    font-size: 2.3em;
     color:#470000(0, 0, 0, 0.717);
-    margin-top: 3em;
+    margin-top: 1.5em;
 }
 
 #container-cofre p{
     color:#470000(0, 0, 0, 0.717);
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.3em;
     margin-top: 3em;
 }
 
@@ -244,6 +246,11 @@ footer img{ /*aqui foi definido o tamannho da imagem de forma responsiva*/
 
 footer p{
     color: white;
+}
+
+footer span{
+    color: #470000;
+    font-weight: bold;
 }
 
 /* Tamanho das telas que iremos trabalhar  480 px, 767px, 991px, 1366px, 1920px */
