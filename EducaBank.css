@@ -1,10 +1,11 @@
-/*Algumas unidades de medidas*/
-/*px | é uma unidade de medida de tamanho fixo*/
-/*tag p | tem o tamanho padrão de 16px*/
-/*em | trabalha em relação ao tamanho fonte do elemento pai*/
-/*rem - também conhecido como root em | este vai depender do elemento pai para tudo, que neste caso é o html. O em & rem podem ser usados em qualquer unidade de medida*/
-/*vh | viewport height*/
-/*vw | viewport width*/
+/*  Algumas unidades de medidas
+px | é uma unidade de medida de tamanho fixo
+tag p | tem o tamanho padrão de 16px
+em | trabalha em relação ao tamanho fonte do elemento pai
+rem - também conhecido como root em | este vai depender do elemento pai para tudo, que neste caso é o html. O em & rem podem ser usados em qualquer unidade de medida
+vh | viewport height
+vw | viewport width
+*/
 
 
 *{
@@ -15,9 +16,11 @@
 }
 
 
+/*aqui iniciamos a configuração do header (cabeçalho)*/
+
 .header{
     background-color: #ef550e ; /*rgb 78 135 168*/
-    padding: 70px; /*define a altura do header*/
+    padding: 10vh; /*define a altura do header*/
     position: sticky;
     top: 0;
     left: 0;
@@ -29,7 +32,7 @@
  }
 
 .menu-header li{
-    margin-left: 40px; /*coloca um espaço entre os títulos no header*/
+    margin-left: 4vw; /*coloca um espaço entre os títulos no header*/
 }
 
 .menu-header a{
@@ -43,129 +46,139 @@
     transition: 0.8s; /*define a velidade em que mudará a cor ao passar o mouse sobre uma palavra*/
 }
 
+
+/*aqui iniciamos a configuração do ID de nome SESSAO que sempre será chamado no CSS pelo símbolo: # */
+
 #sessao{  /*quando for id chama # */
-    padding: 15rem;
+    padding: 8vw;
     background: linear-gradient(180deg,#c0cdcf 8.33%, #f36e27 100%);
     color: #470000;
 }
 
 #sessao h2{
-    font-size: 3em; /*48px*/
+    font-size: 2.5em; 
     color:#470000(0, 0, 0, 0.717);
 }
 
 #sessao p{
-    font-size: 2.3em;
-    margin: 20px 0; /*1º margem em cima e embaixo e o 0 é das laterais*/
+    font-size: 2em;
+    margin: 20px 0; /*1º margem reflete em cima e embaixo e o 0 reflete nas laterais*/
     color: #470000;
 }
 
 #sessao button{
-    padding: 22px;
+    padding: 19px;
     border-radius: 50px;
     border-color: #ef550e;
     width: 20em;
-    cursor: pointer;
+    cursor: pointer; /*ao passar o ouse sobre o botão a seta se transforma em uma mão*/
 }
 
-#sessao button a{
+#sessao a button{
     text-decoration: none;
     color:#ef550e;
+}
 
+#sessao a button:hover{
+    color: white;
+    background-color: #470000;
 }
 
 
-#sessao button a:hover{
-    color: #470000;
-}
-
+/*aqui iniciamos a configuração do ID de nome APP, onde o foco está em falar do aplicativo do banco */
 
 #app{
     display: flex;
-    background-color:#ffba71 ;
-    padding: 15rem;
+    background-color:#ffba71;
+    padding: 8vw;
     justify-content: space-around;
     color: #470000;
 }
 
 #app div button{
-    padding: 22px;
+    padding: 19px;
     border-radius: 50px;
     border-color: #ef550e;
     width: 20em;
     cursor: pointer;
-    
 }
 
-#app button a{
+#app a button{
     text-decoration: none;
     color:#ef550e;
+    margin-top: 20px;
 }
 
-#app button a:hover{
-    color: #470000 ;
+#app a button:hover{
+    color: white;
+    background-color: #470000 ;
 }
 
 #app div p{
-    font-size: 2.3em;
-    
+    font-size: 2em;
+    margin: 0px 10px; /*1º margem reflete em cima e embaixo e o 0 reflete nas laterais*/
 }
 
 #app div img{
     width: 25rem;
-    height: 25rem ;
-    margin-left: 70px;;
-    margin-top: -70px; /*margin negativa faz o processo inverso. ou seja, a imagem sobe*/
-
+    height: 25rem;
+    margin-left: 50px;
+    margin-bottom: -200px; /*margin negativa faz o processo inverso. ou seja, a imagem sobe*/
 }
 
+
+/*aqui iniciamos a configuração do ID de nome CONTAINER, onde o foco está em falar do negócio */
+
 #container{
-    background-color:#ffba71  ;
-    padding: 15rem;
+    background-color:#ffba71 ;
+    padding: 8vw;
     color: #470000;
+    
 }
 
 #container h2{
-    font-size: 3em; /*48px*/
+    font-size: 2.5em;
     color:#470000(0, 0, 0, 0.717);
+    margin-bottom: 4vh;
 }
 
 #container p{
-    font-size: 1.8em;
+    font-size: 1.6em;
     margin: 20px 0; /*1º margem em cima e embaixo e o 0 é das laterais*/
     text-align: justify;
 }
 
-
 #container button{
-    padding: 22px;
+    padding: 19px;
     border-radius: 50px;
     border-color: #ef550e;
     width: 20em;
     cursor: pointer;
-    margin: 1em;
+    margin-bottom: 20px;
 }
 
-#container button a{
+#container a button{
     text-decoration: none;
     color:#ef550e;
 }
 
-#container button a:hover{
-    color: #470000 ;
+#container a button:hover{
+    color: white;
+    background-color: #470000;
 }
 
 #container hr{
-    width: 50vw;
-    align-items: center;
-
+    width: 80vw;
 }
 
-#container img{
-    width: 25vw; /*definiu o tamanho da imagem*/
-    margin-left: 23vw; /*ajustou o alinhamento da imagem na página*/
-    padding: 10px;
+#container div img{
+    width: 20vw; /*definiu o tamanho da imagem*/
+    margin-top: 20px;
+    text-align: center; /*TENTEI CENTRALIZAR O LOGO DO BANCO + NÃO ESTA RECONHECENDO. SE COLOCO NA #CONTAINER CENTRALIZA O BOTÃO E O LOGO E Ñ É O QUE QUERO*/
 }
+
+
+/*aqui iniciamos a configuração do ID de nome CONTAINER-COFRE, onde o foco está em falar da segurança */
 
 #container-cofre{
     background-image: url(img/img\ cofre\ fundo.jpg);
@@ -173,7 +186,7 @@
     background: linear-gradient(180deg,#c0cdcf 8.33%, #f36e27 100%);
     display: flex;
     justify-content: space-between;
-    padding: 10rem;
+    padding: 8vw;
     color: #470000;
 }
 
@@ -181,7 +194,7 @@
     flex-wrap: wrap;
     width: 25vw;
     height: auto;
-    margin-right: 10em;
+    
 }
 
 #container-cofre h2{
@@ -198,55 +211,43 @@
     margin-top: 3em;
 }
 
-#footer-contatos{
-    background-color: #ef550e ;
-    color: #470000;
-    }
+/*configurações do footer (rodapé)*/
 
-#footer-contatos img{
-    width: 20vw; /*definiu o tamanho da imagem*/
-    margin-left: 40vw; /*ajustou o alinhamento da imagem na página*/
-    padding: 1em;
+footer{
+    padding: 2vw; /*está ação dá um espaço nas bordas deste bloco*/
+    text-align: center; /*esta configuração faz com que a imagem fique centralizada*/
+    background-color: #ef550e ; /*rgb 78 135 168*/
 }
 
-#footer-contatos section{
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    margin: 0   10em;
-    padding: 1em;
-    color: #470000;
+footer div{
+    display: flex; /*alinha lado a lado os itens colocados dentro desta DIV, neste caso um paragrafo e uma ancora*/
+    justify-content: space-around; /*alinha centralizado, considerando o espaço ao redor*/
+    margin-top: 6vh; /*dá um espaço na parte superior desta div*/
+    margin-bottom: 4vh; /*dá um espaço na parte inferior desta div*/
 }
 
-#footer-contatos a{
-    text-decoration: none;
-    color: #470000;
+footer div a{
+    text-decoration: none; /*elimina o underline que aparece junto ao código utilizado para inserir a ancora*/
+    color: white; /*define a cor do texto escrito dentro da ancora e que será visivel pelo usuário do site*/
+}
+
+footer div a:hover{
+    color:#470000; /*esta cor aparecerá quando passar o mouse sobre a palavra*/
+    transition: 0.5s; /*define a velocidade em que mudará a cor ao passar o mouse sobre uma palavra*/
+}
+
+footer img{ /*aqui foi definido o tamannho da imagem de forma responsiva*/
+    width: 25vw; 
+    height: 10vh;
+    margin-top: 4vh;
+}
+
+footer p{
+    color: white;
 }
 
 /* Tamanho das telas que iremos trabalhar  480 px, 767px, 991px, 1366px, 1920px */
 
-@media screen and {max-width: 1920px;
-    
-}
-
-@media screen and {max-width: 1366px;
-    
-}
-
-@media screen and {max-width: 991px;
-    #sessao button a{
-        width: 14ren;
-        height: 14vh;
-    }    
-}
-
-@media screen and {max-width: 767px;
-    
-}
-
-@media screen and {max-width: 480px;
-    
-}
 
 
 
