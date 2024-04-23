@@ -255,9 +255,76 @@ footer span{
 
 /* Tamanho das telas que iremos trabalhar  480 px, 767px, 991px, 1366px, 1920px */
 
-@media screen and {max-width: 1920px;
-    
+@media screen and (min-width: 1920px){ }
+
+@media screen and (max-width: 1366px){ }
+
+@media screen and (max-width: 991px){ 
+
+    header{
+        font-size: 1em;
+        
+    }
 }
 
+@media screen and (max-width: 767px){ }
 
+@media screen and (max-width: 480px){ 
 
+    .menu-header{
+        font-size: smaller;            
+        flex-wrap: wrap;
+        
+    }
+
+    #sessao h2{
+        font-size: larger;
+    }
+
+    #sessao p{
+        font-size: medium;
+    }
+
+    #sessao a button{
+        font-size: small;
+    }
+
+    #app{
+        flex-wrap: wrap;
+    }
+
+    #app div p{
+        font-size: medium;
+    }
+
+    #app div a button{
+        font-size: small;
+    }
+
+    #app div img{
+        width: 60vw;
+        margin-bottom: 15px;
+    }
+
+    #container h2{
+        font-size: larger;
+    }
+
+    #container p{
+        font-size: medium;
+    }
+
+    #container a button{
+        font-size: small;
+    }
+
+    #container-cofre div h2{
+        font-size: larger;
+    }
+
+    #container-cofre div p{
+        font-size: medium;
+    }
+    
+
+ }
