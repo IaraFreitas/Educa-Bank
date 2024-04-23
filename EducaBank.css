@@ -327,9 +327,15 @@ footer span{
     
     @media screen and (min-width: 400px){
 
+        .header{
+            padding: 1em;
+            width: 5em;
+        }
+
         .menu-header{
             font-size: smaller;            
             flex-wrap: wrap;
+          
     
         }
     
