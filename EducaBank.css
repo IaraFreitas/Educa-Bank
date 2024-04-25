@@ -20,10 +20,8 @@ vw | viewport width
 
 .header{
     background-color: #ef550e ; /*rgb 78 135 168*/
-    padding: 10vh; /*define a altura do header*/
-    position: sticky;
-    top: 0;
-    left: 0;
+    padding: 3rem; /*define a altura do header*/
+    
 }
 
 .menu-header{
@@ -258,15 +256,18 @@ footer span{
 
 @media screen and (max-width: 1366px){ }
 
-@media screen and (max-width: 991px){ 
-
-    header{
-        font-size: 1em;
-        
-    }
-}
+@media screen and (max-width: 991px){ }
 
 @media screen and (max-width: 767px){ }
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 480px){ 
 
@@ -274,6 +275,12 @@ footer span{
         font-size: smaller;            
         flex-wrap: wrap;
         
+    }
+    .menu-header li {
+        font-size: 0.4rem;
+    }
+    #sessao{
+        padding: 20vh;
     }
 
     #sessao h2{
@@ -285,11 +292,14 @@ footer span{
     }
 
     #sessao a button{
-        font-size: small;
+        font-size: 0.5rem;
+        width: 13rem;
+        padding: 0.8rem;
     }
 
     #app{
         flex-wrap: wrap;
+        padding: 23vh;
     }
 
     #app div p{
@@ -297,37 +307,93 @@ footer span{
     }
 
     #app div a button{
-        font-size: small;
+        font-size: 0.5rem;
+        width: 13rem;
+        padding: 0.8rem;
     }
 
     #app div img{
-        width: 60vw;
+        width: 15rem;
+        height: auto;
+        margin-top: 5rem;
         margin-bottom: 15px;
     }
+
+
+   #container {
+    padding: 23vh;
+   }
+
 
     #container h2{
         font-size: larger;
     }
 
     #container p{
-        font-size: medium;
+        font-size: 0.8rem;
+    }
+
+    #container div img {
+        width: 11rem;
+        height: auto;
+        margin-left: -0.1rem;
     }
 
     #container a button{
-        font-size: small;
+        font-size: 0.5rem;
+        width: 13rem;
+        padding: 0.8rem;
+    }
+
+
+    #container-cofre {
+        padding: 13vh;
+        display: block;
+    }
+
+    #container-cofre div img {
+        width: 10rem;
+        height: auto;
+        margin-left: 6rem;
     }
 
     #container-cofre div h2{
-        font-size: larger;
+        font-size: 1.7rem;
     }
 
     #container-cofre div p{
-        font-size: medium;
+        font-size: 0.9rem;
+    }
+
+    footer {
+        padding: 3vh;
+    }
+
+    footer img {
+        width: 13rem;
+        height: auto;
+    }
+
+    footer p {
+        font-size: 0.6rem;
+    }
+
+    footer a {
+        font-size: 0.6rem;
     }
 
 }
+
+
+
+
+
+
+
+
+
     
-    @media screen and (min-width: 400px){
+    @media screen and (max-width: 400px){
 
         .header{
             padding: 1em;
